@@ -17650,7 +17650,7 @@ function displayFilteredContent(data) {
               div.className = "item";
   
               const img = document.createElement("img");
-              img.src = './image/'+item.id+'.jpg';
+              img.src = './image/'+item.id+'_ya.jpg';
               img.alt = item.id;
               img.id = "imagePopup";
               img.onclick = function() {
@@ -17662,7 +17662,7 @@ function displayFilteredContent(data) {
                 const modalContent = document.createElement("div");
                 modalContent.className = "modal-content";
                 const image=document.createElement("img")
-                image.src = './image/'+item.id+'.jpg'
+                image.src = './image/'+item.id+'_ya.jpg'
                 // 创建标题
                 const title = document.createElement("h2");
                 title.textContent = item.cnname;
